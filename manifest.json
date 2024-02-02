@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "VidIQ Bulk Copy Keyword Research",
+  "version": "1.0",
+  "description": "Copy Bulk and Multiple  search volume and competition data from a Vidiq .",
+  "permissions": ["activeTab"],
+  "browser_action": {
+    "default_icon": {
+      "16": "images/icon16.png"
+    },
+    "default_title": "Copy Keyword Data"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://app.vidiq.com/*/*/keywords/*/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
