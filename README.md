@@ -9,8 +9,8 @@ VidIQ free version doesn't support copy multiple keywords and export them to csv
 
 ## How to use
 1. Download the zip file of this extension and extract
-2. open Google chrome and go to chrome://extentions
-3. Turn developer mode on.
+2. open Google chrome and go to chrome://extensions
+3. Turn "developer mode" on.
 4. Click on "Load unpacked" Button
 5. Select the foldor you just extracted
 6. Extension will be installed
